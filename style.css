@@ -1,0 +1,154 @@
+
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dark {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.white {
+    background-color: #ffffff;
+    color: #1f2937;
+}
+
+
+.gray {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.header {
+    width: 800px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.subsection {
+    width: 800px;
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.linksBox {
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+}
+
+.menuLink {
+    flex-grow: initial;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 400
+    ;
+}
+
+.subsection.hero {
+    margin: 64px 16px;
+    gap: 32px;
+}
+
+.heroImage {
+    max-width: 400px;
+    flex: 1 1 auto;
+}
+
+.heroTextBox {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+p.onDark {
+    color: #e5e7eb;
+    font-weight: 300;
+    margin: 0;
+}
+
+p.secondary {
+    color: #4B5563;
+}
+
+button.primary {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: #3882f6;
+    padding: 8px;
+    width: 120px;
+    border-radius: 8px;
+}
+
+.subsection.info {
+    margin: 32px 16px;
+    gap: 32px;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardList {
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    text-align: center;
+}
+
+img.cardImage {
+    width: 100%;
+    border-radius: 8px;
+}
