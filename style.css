@@ -206,3 +206,9 @@ img.cardImage {
 .ctoTextBox {
     justify-content: space-between;
 }
+
+.footer {
+    padding: 32px;
+    font-size: 14px;
+    color: #e5e7eb;
+}
